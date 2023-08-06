@@ -1,0 +1,5 @@
+CREATE TABLE note (
+    id BIGSERIAL PRIMARY KEY,
+    title VARCHAR(250) NOT NULL CHECK (LENGTH(title) >= 3 AND LENGTH(title) <= 250),
+    content VARCHAR NOT NULL
+)
