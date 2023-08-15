@@ -21,6 +21,5 @@ public class NoteEntity {
     private String title;
     @Column
     private String content;
-
     }
 
